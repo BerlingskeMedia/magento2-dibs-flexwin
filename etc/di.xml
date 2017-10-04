@@ -38,7 +38,6 @@
             <argument name="commands" xsi:type="array">
                 <item name="capture" xsi:type="string">DibsFlexwinCaptureGatewayCommand</item>
                 <item name="refund" xsi:type="string">DibsFlexwinRefundGatewayCommand</item>
-                <item name="void" xsi:type="string">DibsFlexwinVoidGatewayCommand</item>
             </argument>
         </arguments>
     </virtualType>
@@ -48,11 +47,6 @@
         </arguments>
     </type>
     <type name="Dibs\Flexwin\Gateway\Request\Refund">
-        <arguments>
-            <argument name="config" xsi:type="object">DibsFlexwinConfig</argument>
-        </arguments>
-    </type>
-    <type name="Dibs\Flexwin\Gateway\Request\Void">
         <arguments>
             <argument name="config" xsi:type="object">DibsFlexwinConfig</argument>
         </arguments>
