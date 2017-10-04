@@ -2,7 +2,7 @@
     "name": "berlingskemedia/magento2-dibs-flexwin",
     "description": "Integration with DIBS payment gateway for D2 merchants",
     "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0"
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1"
     },
     "type": "magento2-module",
     "license": [
